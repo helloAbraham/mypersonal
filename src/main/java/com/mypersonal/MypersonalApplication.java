@@ -16,6 +16,7 @@ public class MypersonalApplication implements CommandLineRunner {
         SpringApplication.run(MypersonalApplication.class, args);
     }
 
+	//Line added
     @Override
     public void run (String... args){
         logger.info("It's my second logger");

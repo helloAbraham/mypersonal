@@ -17,6 +17,7 @@ public class MypersonalApplication implements CommandLineRunner {
     }
 
 	//Line added
+	//comment for testing build every min..
     @Override
     public void run (String... args){
         logger.info("It's my second logger");
